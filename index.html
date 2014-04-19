@@ -34,129 +34,89 @@
 
 	<body>
 		<header>
-			<div class="container">
-				<nav class="navbar navbar-default" role="navigation">
-					<div class="container-fluid">
-					    <!-- Brand and toggle get grouped for better mobile display -->
-					    <div class="navbar-header">
-					      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-nav">
-					        <span class="sr-only">Toggle navigation</span>
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-nav">
+					    	<span class="sr-only">Toggle navigation</span>
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span>
-					      </button>
-					      <a class="navbar-brand" href="#" alt="Play It Cool"><img src="imgs/logo.png" /> Play It Cool</a>
-					    </div>
+					 	</button>
+					   	<a class="navbar-brand" href="/" title="Play It Cool"><span class="logo"><img src="imgs/logo.png" alt="Play It Cool" title="Play It Cool" /></span>Play It Cool</a>
+					</div>
 					
-					    <!-- Collect the nav links, forms, and other content for toggling -->
-					    <div class="collapse navbar-collapse navbar-right" id="top-nav">
-					      	<ul class="nav navbar-nav">
-					       		<li class="active"><a href="#">Home</a></li>
-					       		<li><a href="#">Rule</a></li>
-					       		<li><a href="#">FabLab Saigon</a></li>
-					       	</ul>
-			    		</div><!-- /.navbar-collapse -->
-					</div><!-- /.container-fluid -->
-				</nav>
-			</div>
-		</header>			
-			
+					<div class="collapse navbar-collapse" id="top-nav">
+						<ul class="nav navbar-nav pull-right">
+							<li class="active"><a href="/" title="Home">Home</a></li>
+							<li><a href="#" title="Game Rule">Game Rule</a></li>
+							<li><a href="#" title="Instructable">Instructable</a></li>
+							<li><a href="#" title="FabLab Saigon">FabLab Saigon</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		
 		<div id="main">
 			<div class="container">
-			<h1>Game Statistic</h1>
-			<div class="row">
-				<div class="col-md-5 m-left">
-					<div class="row">
-						<div class="col-md-6">
-							<p>Total Points</p>
-						</div>
-						<div class="col-md-6">
-							<p>100</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6">
-							<p>Total Owned CheckPoints</p>
-						</div>
-						<div class="col-md-6">
-							<p>12</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6">
-							<p>Number of Members</p>
-						</div>
-						<div class="col-md-6">
-							<p>8</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6">
-							<p>Last Time Check-In</p>
-						</div>
-						<div class="col-md-6">
-							<p>10 minutes ago</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-2 m-vs">
-					<p>VS</p>
-				</div>
-				<div class="col-md-5 m-right">
-					<div class="row">
-						<div class="col-md-6">
-							<p>Total Points</p>
-						</div>
-						<div class="col-md-6">
-							<p>80</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6">
-							<p>Total Owned CheckPoints</p>
-						</div>
-						<div class="col-md-6">
-							<p>16</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6">
-							<p>Number of Members</p>
-						</div>
-						<div class="col-md-6">
-							<p>22</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6">
-							<p>Last Time Check-In</p>
-						</div>
-						<div class="col-md-6">
-							<p>25 minutes ago</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			</div>
-		</div>	
-		
-		<div id="map">
-			<div class="container">
-				<h2>Checkpoint Maps</h2>
+				<h2>Game Statistic</h2>
 				<div class="row">
-					<div class="col-md-12">
-						<img src="http://placehold.it/1140x400" class="thumbnail" />
+					<div class="col-md-6 left">
+						<table>
+							<caption><h3>The Resilients</h3></caption>
+							<tr>
+								<th>Total Points</td>
+								<td>188</td>
+							</tr>
+							<tr>
+								<th>Number of Checkpoints</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<th>Members</td>
+								<td>12</td>
+							</tr>
+						</table>
+					</div>
+					<div class="col-md-6 right">
+						<table>
+							<caption><h3>The Engagers</h3></caption>
+							<tr>
+								<th>Total Points</td>
+								<td>124</td>
+							</tr>
+							<tr>
+								<th>Number of Checkpoints</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<th>Members</td>
+								<td>5</td>
+							</tr>
+						</table>
 					</div>
 				</div>
 			</div>
 		</div>
-	
-		<footer>
+			
+		<div id="white">
 			<div class="container">
+				<div id="map">
+					<h2>Checkpoint Maps</h2>
+					<div class="row">
+						<div class="col-md-12">
+							<img src="http://placehold.it/1170x450" />
+						</div>
+					</div>
+				</div>
+				
 				<hr />
-				<p>&copy; 2014 FabLab Saigon</p>
+				<footer>
+					<p class="copyright">&copy; 2014 <a href="/" title="FabLab Saigon">FabLab Saigon</a></p>
+				</footer>
 			</div>
-		</footer>
+		</div>
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
